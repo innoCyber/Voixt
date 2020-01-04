@@ -157,5 +157,10 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    public String copy(){
+        String copiedData ="";
+        return copiedData;
+    }
+
 
 }
