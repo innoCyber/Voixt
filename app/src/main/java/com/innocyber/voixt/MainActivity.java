@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
     EditText txtView;
     ArrayList<String> result = null;
-    ImageView mic, wp, twtr, more;
+    ImageView mic, wp, twtr, share;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         mic = findViewById(R.id.mic);
         wp =  findViewById(R.id.whatsapp);
         twtr =  findViewById(R.id.twitter);
-        more =  findViewById(R.id.more);
+        share =  findViewById(R.id.share);
 
         mic.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        more.setOnClickListener(new View.OnClickListener() {
+        share.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if(result!=null) {

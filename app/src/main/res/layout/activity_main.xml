@@ -55,7 +55,7 @@
             android:paddingLeft="5dp"
             android:layout_centerInParent="true"/>
         <ImageView
-            android:id="@+id/more"
+            android:id="@+id/share"
             android:contentDescription="@string/more_desc"
             android:layout_width="50dp"
             android:layout_height="50dp"
